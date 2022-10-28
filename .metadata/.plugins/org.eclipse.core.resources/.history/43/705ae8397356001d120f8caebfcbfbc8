@@ -1,0 +1,12 @@
+package org.java.variableEx;
+
+public class VarEx02 {
+	
+	public static void main(String[] args) {
+		System.out.println("==자바의 객체형 타입==");
+	
+	// 객체 생성 > 주소값(임의의)
+		String str1=new String();
+		
+	}
+}

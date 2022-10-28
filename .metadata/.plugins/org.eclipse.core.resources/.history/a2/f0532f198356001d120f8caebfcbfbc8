@@ -1,0 +1,18 @@
+package org.java.variableEx;
+
+public class VarEx04 {
+
+	final static int NUM2=1000;
+	
+public static void main(String[] args) {
+	System.out.println("상수(final)");
+	
+//	final static int NUM1=100;
+//	NUM1=200; // final 상수는 한번만 초기화 된다
+
+	System.out.println();
+
+
+
+}
+}

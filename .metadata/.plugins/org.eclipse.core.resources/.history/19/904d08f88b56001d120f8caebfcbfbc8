@@ -1,0 +1,18 @@
+package org.java.variableEx;
+
+import java.lang.*; // java.lang은 기본으로 안가져와도된다
+//						다른 클래스꺼는 기본적으로 가져와야됨
+
+public class ScannerEx01 {
+	
+public static void main(String[] args) {
+	
+	System.out.println("Scanner");
+	
+		System.out.println("데이터를 입력하세요:");
+	
+	
+	
+	
+}
+}
