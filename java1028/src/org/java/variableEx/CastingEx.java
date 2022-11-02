@@ -30,7 +30,7 @@ public static void main(String[] args) {
 	System.out.println(j);
 	System.out.println(j2);
 	
-	byte b4=100;
+	byte b4=10;
 	byte b5=50;
 	byte b6=(byte)(b4+b5);
 	

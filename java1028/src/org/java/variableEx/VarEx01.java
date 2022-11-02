@@ -58,6 +58,11 @@ public class VarEx01 {
 	System.out.println("bool > " + bool);
 	System.out.println("bool2 > " + bool2);
 	
+	int a = 10;
+	int c = 15;
+	System.out.println(a);
+	
+	System.out.println(a + c);
 	
 	}
 	

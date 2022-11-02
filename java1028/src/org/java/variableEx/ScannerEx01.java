@@ -19,8 +19,14 @@ public static void main(String[] args) {
 		int age=scn.nextInt();
 
 		System.out.print(	"당신의 나이 : " +age);
-
-	
+//
+//		// 시스템 입력
+//		Scanner scn = new Scanner(System.in);
+//		scn.next(); // 문자열 입력(공백X, 단어, "이름", "문자열")
+//		scn.nextLine(); // 문자열 입력(공백O, "문자열 입력 123")
+//		scn.nextInt(); // 정수형 입력
+//		scn.nextDouble(); // 실수형 입력
+//	
 
 		scn.close();
 
