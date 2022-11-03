@@ -2,6 +2,7 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.java.variableEx.BasicClass"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.study.loopEx.ForEx3"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
