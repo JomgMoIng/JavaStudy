@@ -17,6 +17,7 @@ public class ArrayEx01 {
 		arr1[3]=40;// arr1의 3번지를 40으로 선언
 		arr1[4]=50;// arr1의 4번지를 50으로 선언
 		
+		
 		System.out.println(arr1[0]);
 		System.out.println(arr1[1]);
 		System.out.println(arr1[2]);

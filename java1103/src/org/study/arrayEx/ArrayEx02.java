@@ -15,6 +15,8 @@ public class ArrayEx02 {
 
 		int[] arr2 = new int[] { 1, 2, 3, 4, 5 };
 		
+
+		
 		for (int i = 0; i < arr2.length; i++) {
 			System.out.println(arr2[i]);
 		}
@@ -27,6 +29,7 @@ public class ArrayEx02 {
 		
 		char[] arrCh = {'a','b','c','d','e'};
 		for(int i=0;i<arrCh.length;i++) {
+		
 			System.out.println(arrCh[i]);
 		}
 		
