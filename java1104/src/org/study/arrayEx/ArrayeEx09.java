@@ -23,9 +23,7 @@ public class ArrayeEx09 {
 			System.out.println();
 		}
 			
-
-
-
+		
 		
 		
 	}

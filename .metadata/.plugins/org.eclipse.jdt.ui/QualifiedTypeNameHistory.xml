@@ -3,7 +3,13 @@
 <fullyQualifiedTypeName name="org.java.variableEx.BasicClass"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="org.study.loopEx.ForEx3"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.study.oop.ClassBasic"/>
+<fullyQualifiedTypeName name="org.study.oop.Class1"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.study.oop.Car"/>
+<fullyQualifiedTypeName name="org.study.oop.FieldEx"/>
+<fullyQualifiedTypeName name="org.study.oop.MethodEx"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

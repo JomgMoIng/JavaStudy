@@ -1,11 +1,11 @@
-package org.study.arrayEx;
+package solpl1101;
 
 import java.util.Scanner;
 
-public class ArrayEx03 {
+public class ArrayEx03ch {
 	public static void main(String[] args) {
 		System.out.println("배열");
-
+		// 로또 중복있게 만들어보기
 		// 로또 0번지~44번지 > 1~45배열
 		// 배열선언
 
@@ -23,6 +23,8 @@ public class ArrayEx03 {
 //		System.out.println((int)(Math.random()*46)); //위와 같음
 
 		System.out.println("=========");
+
+		for(int j=0;j<6;j++) {
 		int temp;
 
 		for (int i = 0; i < 1000; i++) {
@@ -34,16 +36,11 @@ public class ArrayEx03 {
 			lotto[0] = temp;
 		}
 	
-		for (int j = 0; j < 6; j++) {
-			if (j == 5) {
-				System.out.print(lotto[j]);
-				break;
-			} else {
-				System.out.print(lotto[j] + ",");
-			}
-			
+				System.out.print(lotto[0]+" ");
 
 		}
+
+		
 		
 	}
 }

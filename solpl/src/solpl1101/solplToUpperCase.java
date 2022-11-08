@@ -17,6 +17,5 @@ public class solplToUpperCase {
 
 		System.out.println(result);
 	System.out.println(all);
-		input.close();
 	}
 }

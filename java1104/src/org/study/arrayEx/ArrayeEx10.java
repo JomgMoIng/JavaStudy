@@ -16,13 +16,13 @@ public class ArrayeEx10 {
 		int kor = 0;
 		int math = 0;
 		int eng = 0;
-
+	
 		
 		System.out.println("중간고사 성적표");
 		System.out.println("번호\t 국어 \t 수학 \t 영어\t 총점\t 평균");
 		System.out.println("====================");
 		for(int i=0; i<score.length;i++) {
-			
+	
 			int sum = 0;
 			double avg=0.0;
 			System.out.print(i+"\t");
@@ -36,12 +36,16 @@ public class ArrayeEx10 {
 			kor += score[i][0];
 			math += score[i][1];
 			eng += score[i][2];
+			
+			double r = kor/score.length;
+			
 		} 
 		System.out.println("====================");
-		System.out.println("과목별\t" + kor + " "+math+" "+eng);
+		System.out.println("과목별\t" + kor + "\t"+math+"\t"+eng);
+		System.out.println("과목별 평균\t 국어"+(double)kor/score.length);
 		
 		
-		
+
 		
 //		클래스룸		
 //		int kor = 0;
