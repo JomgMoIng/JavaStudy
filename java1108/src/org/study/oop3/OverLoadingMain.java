@@ -6,6 +6,12 @@ public class OverLoadingMain {
 
 		OverLoading1 over1 = new OverLoading1();
 
+		
+		over1.nonstaticMethod();
+		
+		
+		
+		System.out.println("============");
 		over1.method1();
 		over1.method1(100);
 		over1.method1(100, "OverLoading1");
