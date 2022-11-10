@@ -4,15 +4,24 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="org.study.loopEx.ForEx3"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="org.study.oop.ClassBasic"/>
 <fullyQualifiedTypeName name="org.study.oop.Class1"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="org.study.oop.Car"/>
 <fullyQualifiedTypeName name="org.study.oop.FieldEx"/>
 <fullyQualifiedTypeName name="org.study.oop.MethodEx"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="org.study.oop3.ClassBasic"/>
 <fullyQualifiedTypeName name="org.study.oop3.PrivateFieldEx"/>
 <fullyQualifiedTypeName name="org.study.oop3.OverLoading1"/>
+<fullyQualifiedTypeName name="org.study.oop4.ContructEx"/>
+<fullyQualifiedTypeName name="org.study.package1.ModifyEx1"/>
+<fullyQualifiedTypeName name="org.study.package1.ModifyEx2"/>
+<fullyQualifiedTypeName name="DB.MemberCommend.MemberJoinCommend"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="DB.MemberDto.MemberDTO"/>
+<fullyQualifiedTypeName name="org.study.inheritance.ParentClass"/>
+<fullyQualifiedTypeName name="DB.MemberCommend.DBCommend"/>
 </qualifiedTypeNameHistroy>
