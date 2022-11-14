@@ -35,7 +35,6 @@
 <fullyQualifiedTypeName name="solpl1110.TestBasic"/>
 <fullyQualifiedTypeName name="org.study.test.ActionQueryInsert"/>
 <fullyQualifiedTypeName name="org.study.test.ActionQueryDelete"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="org.study.controller.MemberController"/>
 <fullyQualifiedTypeName name="org.study.dto.Member"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
@@ -44,4 +43,14 @@
 <fullyQualifiedTypeName name="org.study.commend.MemberDeleteCommend"/>
 <fullyQualifiedTypeName name="org.study.commend.MemberSelectCommend"/>
 <fullyQualifiedTypeName name="org.study.commend.MemberUpdateCommend"/>
+<fullyQualifiedTypeName name="java.io.Closeable"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="org.study.abstractEx.DBDeleteDo"/>
+<fullyQualifiedTypeName name="org.study.Controller.DBController"/>
+<fullyQualifiedTypeName name="org.study.Commend.DBInsertDo"/>
+<fullyQualifiedTypeName name="org.study.Commend.SQLQueryCommend"/>
+<fullyQualifiedTypeName name="org.study.Commend.DBSelectDo"/>
+<fullyQualifiedTypeName name="org.study.abstractEx.DBUpdateDo"/>
+<fullyQualifiedTypeName name="org.study.Commend.DBUpdateDo"/>
+<fullyQualifiedTypeName name="org.study.Commend.DBDeleteDo"/>
 </qualifiedTypeNameHistroy>
