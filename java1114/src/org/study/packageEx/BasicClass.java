@@ -31,8 +31,7 @@ public class BasicClass {
 	Objects o1=null;			// 객체를 비교, null 여부
 	StringTokenizer s2=null;	// 특정 문자열 기준으로 문자열 추출
 	Random r=null;				// 난수 추출 (0<= X < 1)
-	
-	
+
 	
 	}
 }

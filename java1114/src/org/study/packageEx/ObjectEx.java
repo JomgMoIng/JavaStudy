@@ -4,6 +4,7 @@ class ObSub{
 	private String name;
 	private int age;
 	
+	
 	public ObSub() {
 	}
 	
@@ -37,7 +38,7 @@ public class ObjectEx {
 		System.out.println(o1.toString());	// 객체 o1의 정보를 문자열로
 		System.out.println(o2.toString());	// 객체 o2의 정보를 문자열로
 		
-		System.out.println(o1.getName());
+	
 		
 		//객체를 비교
 		System.out.println(o1.equals(o2));
