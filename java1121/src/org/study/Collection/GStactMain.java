@@ -1,5 +1,7 @@
 package org.study.Collection;
 
+import java.util.Vector;
+
 public class GStactMain {
 
 	public static void main(String[] args) {
@@ -9,7 +11,7 @@ public class GStactMain {
 		int size = gStack1.oStack.length; // 배열의 전체 길이
 		// push매서드 10번 실행
 		for (int i = 0; i < size; i++) {
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                     
 			// 10~100
 			int i2 = i * 10 + 10;
 			gStack1.push(i2);
