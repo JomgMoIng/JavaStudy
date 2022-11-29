@@ -9,6 +9,7 @@ import javax.swing.JFrame;
 
 public class SwingEx2 extends JFrame {
 
+	
 	public SwingEx2() {
 		
 		setTitle("Swing Ex2");

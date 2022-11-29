@@ -37,7 +37,20 @@ public class JMenuEventEx extends JFrame implements ActionListener{
 		 this.setSize(500, 400); //프레임 크기
 		 this.setVisible(true); //보여라
 		 
+		 
+		 // Aondroid 이벤트 구현 방법중에 하나..1
 		 jMe_01.addActionListener(this);	//이벤트 연결
+		 // Aondroid 이벤트 구현 방법중에 하나..2
+//		 jMe_01.addActionListener(new ActionListener() {
+//			
+//			@Override
+//			public void actionPerformed(ActionEvent e) {
+//				// TODO Auto-generated method stub
+//				
+//			}
+//		});	//
+		 
+//		 jMe_02.addActionListener(this);	//이벤트 연결
 	 }
 	 
 	 
@@ -51,13 +64,29 @@ public class JMenuEventEx extends JFrame implements ActionListener{
 		 	dial.setSize(400, 400);
 		 	dial.setVisible(true);
 		 	
-		 	btn.addActionListener(new ActionListener() {
+		 	//////Android App 이벤트 적용 예시
+		 	
+		 	btn.addActionListener(this);	//btn 클릭시 > actionPerforme 메서드 구현
+		 	//this > 						// ActionListener 오버라이드
+		 	ActionListener a1 = new ActionListener() {
 				
 				@Override
 				public void actionPerformed(ActionEvent e) {
-					dial.setVisible(false);	//다이알로그 버튼 클릭하면 다이얼 안보임
+					System.out.println("오버라이딩");
+					dial.setVisible(false);
 				}
-			});
+			};
+		 	
+		 	
+		 	
+		 	
+//		 	btn.addActionListener(new ActionListener() {
+//				
+//				@Override
+//				public void actionPerformed(ActionEvent e) {
+//					dial.setVisible(false);	//다이알로그 버튼 클릭하면 다이얼 안보임
+//				}
+//			});
 	 }
 	
 	public static void main(String[] args) {
