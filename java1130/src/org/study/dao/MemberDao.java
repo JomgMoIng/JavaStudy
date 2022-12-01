@@ -18,7 +18,6 @@ public class MemberDao {
 	public int insert(String userId, String userPw, int age) {
 		System.out.println("아이디 : "+userId+", 비밀번호 : "+userPw+", 나이 : "+age);
 		int result =0;
-		
 		Connection conn = null;	//DB연동
 		PreparedStatement pstm = null;	//SQL처리
 		String query="";	//쿼리문
@@ -40,16 +39,11 @@ public class MemberDao {
 			e.printStackTrace();
 		}finally {
 				try {
-					if(conn != null) 
-					conn.close();
-					
-					if(pstm != null) 
-					pstm.close();
+					if(conn != null) conn.close();
+					if(pstm != null) pstm.close();
 				} catch (Exception e) {
-				}finally {
-				}
+				}finally {		}
 		}
-		
 		return result;
 	}
 	

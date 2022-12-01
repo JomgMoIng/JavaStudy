@@ -4,14 +4,17 @@ import java.util.Scanner;
 
 import org.study.dao.MemberDao;
 
-public class MemberUpdateDo implements MemberCommend {
+public class MemberInsertDo implements MemberCommend {
 
 	@Override
 	public void excuteQueryCommend() {
-		System.out.println("회원수정");
+		System.out.println("회원가입");
+		//DB Access object
 		
 		MemberDao dao = new MemberDao();
-
+		
+		//userId, userPw, age DB 테이블에 추가
+		
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("아이디 : ");
@@ -21,7 +24,13 @@ public class MemberUpdateDo implements MemberCommend {
 		System.out.println("나이 : ");
 		int age = input.nextInt();
 		
-		int result =dao.insert(userId,userPw,age);
+		int result =dao.insertDo(userId,userPw,age);
+		
+		if(result!=1) {
+			System.out.println("회원수정 실패");
+		} else {
+			System.out.println("회원수정 성공");
+		}
 		
 		System.out.println(result);
 		
