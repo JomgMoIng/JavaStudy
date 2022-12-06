@@ -59,7 +59,6 @@ public class MemberDao {
 		ResultSet rs = null;	//DB데이터를 저장하는 객체
 		String query = "";
 		
-		
 		try {
 			conn = DBConnect.getConnection();
 			query = "select * from member ";
@@ -83,25 +82,10 @@ public class MemberDao {
 			
 		}
 		
-		
-		
-		
-		
 		return lists;
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 	
 	//회원수정 return 정수 1(성공)
 	
